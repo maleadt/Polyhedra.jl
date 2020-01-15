@@ -26,7 +26,7 @@ include("lp_to_polyhedra.jl")
 include("polyhedra_to_lp_bridge.jl")
 include("default.jl")
 
-include("show.jl")
+#include("show.jl")
 
 include("polyhedra.jl")
 for (arith, T) in (("floating point", Float64), ("exact", Rational{BigInt}))
